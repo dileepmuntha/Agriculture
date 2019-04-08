@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">వ్యవసాయం</string>
+    <string name="title_activity_nav">నవ్</string>
+    <string name="navigation_drawer_open">నావిగేషన్ డ్రాయర్ తెరవండి</string>
+    <string name="navigation_drawer_close">నావిగేషన్ డ్రాయర్ను మూసివేయి</string>
+    <string name="nav_header_title">Android స్టూడియో</string>
+    <string name="nav_header_desc">నావిగేషన్ శీర్షిక</string>
+    <string name="action_settings">సెట్టింగులు</string>
+    <string name="login">సెట్టింగులు</string>
+    <string name="register">నమోదు</string>
+    <string name="changeLang">భాష మార్చు</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+</resources>

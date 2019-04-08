@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.example.a1234.agriculture.Fourth">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#44DC39"
+        android:text="Forgot Password"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:inputType="text"
+        android:hint="Enter Gmail:"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/forgetpassword" />
+    <Button
+        android:id="@+id/resetPassword"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/background"
+        android:onClick="confirm"
+        android:text="SEND RECOVERY MAIL"
+        android:layout_weight="10"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+</LinearLayout>
+</ScrollView>

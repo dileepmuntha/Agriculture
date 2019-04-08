@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.a1234.agriculture.MainActivity"
+    android:background="#FFF">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:src="@drawable/logo"
+       android:layout_weight="90"
+       android:layout_marginLeft="10dp"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:text="LOGIN"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_weight="10"
+        android:textColor="#F9F1FA"
+        android:background="@drawable/background"
+        android:layout_marginTop="20dp"
+        android:onClick="thirdsign"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:text="REGISTER"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_weight="10"
+        android:textColor="#F9F1FA"
+        android:background="@drawable/background"
+        android:layout_marginTop="20dp"
+        android:onClick="button"/>
+        <Button
+            android:id="@+id/changeMyLang"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="ChangeLang"
+            android:textSize="20sp"
+            android:background="@drawable/background"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
